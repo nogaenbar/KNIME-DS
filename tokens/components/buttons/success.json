@@ -3,12 +3,12 @@
     "button": {
       "color": {
         "selectable-bg": {
-          "value": "#",
-          "type": "color"
+          "$type": "color",
+          "$value": "#"
         },
         "selectable-fg": {
-          "value": "#",
-          "type": "color"
+          "$type": "color",
+          "$value": "#"
         }
       }
     }

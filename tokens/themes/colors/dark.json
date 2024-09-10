@@ -2,14 +2,12 @@
   "base": {
     "fg": {
       "default": {
-        "value": "#",
-        "type": "color"
+        "$type": "color",
+        "$value": "#"
       }
     },
     "bg": {
       "default": {
-        "value": "{core.color.yellow.50}",
-        "type": "color",
         "$extensions": {
           "studio.tokens": {
             "modify": {
@@ -18,7 +16,9 @@
               "space": "lch"
             }
           }
-        }
+        },
+        "$type": "color",
+        "$value": "{core.color.yellow.50}"
       }
     },
     "selectable": {
@@ -26,54 +26,54 @@
         "unselected": {
           "enabled": {
             "bg": {
-              "value": "{core.color.transparent}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{core.color.transparent}"
             }
           },
           "hover": {
             "bg": {
-              "value": "{core.color.transparent}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{core.color.transparent}"
             }
           },
           "pressed": {
             "bg": {
-              "value": "{core.color.transparent}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{core.color.transparent}"
             }
           }
         },
         "selected": {
           "enabled": {
             "bg": {
-              "value": "{core.color.transparent}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{core.color.transparent}"
             }
           },
           "hover": {
             "bg": {
-              "value": "{core.color.transparent}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{core.color.transparent}"
             }
           },
           "pressed": {
             "bg": {
-              "value": "{core.color.transparent}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{core.color.transparent}"
             }
           }
         }
       },
       "success": {
         "canvas-bg": {
-          "value": "{core.color.green.60}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{core.color.green.60}"
         }
       },
       "error": {
         "default": {
-          "value": "{core.color.red.40}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{core.color.red.40}"
         }
       }
     }

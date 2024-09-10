@@ -3,22 +3,20 @@
     "button": {
       "opacity": {
         "enabled": {
-          "value": "{base.color.modifiers.enabled-alpha}",
-          "type": "opacity"
+          "$type": "opacity",
+          "$value": "{base.color.modifiers.enabled-alpha}"
         },
         "disabled": {
-          "value": "{base.color.modifiers.disabled-alpha}",
-          "type": "opacity"
+          "$type": "opacity",
+          "$value": "{base.color.modifiers.disabled-alpha}"
         }
       },
       "primary": {
         "enabled-bg": {
-          "value": "{base.bg.default}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{base.bg.default}"
         },
         "enabled-border": {
-          "value": "{comp.button.primary.enabled-bg}",
-          "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -28,12 +26,11 @@
                 "color": "{base.fg.default} "
               }
             }
-          }
+          },
+          "$type": "color",
+          "$value": "{comp.button.primary.enabled-bg}"
         },
         "hover-bg": {
-          "value": "{comp.button.primary.enabled-bg}",
-          "type": "color",
-          "description": "this one is created completely with the modifiers",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -42,11 +39,14 @@
                 "space": "lch"
               }
             }
-          }
+          },
+          "$type": "color",
+          "$value": "{comp.button.primary.enabled-bg}",
+          "$description": "this one is created completely with the modifiers"
         },
         "fg": {
-          "value": "{base.fg.default}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{base.fg.default}"
         }
       }
     }

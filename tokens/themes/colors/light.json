@@ -2,14 +2,14 @@
   "base": {
     "fg": {
       "default": {
-        "value": "{core.color.neutral.10}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{core.color.neutral.10}"
       }
     },
     "bg": {
       "default": {
-        "value": "{core.color.yellow.50}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{core.color.yellow.50}"
       }
     },
     "selectable": {
@@ -17,83 +17,83 @@
         "unselected": {
           "enabled": {
             "bg": {
-              "value": "{core.color.transparent}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{core.color.transparent}"
             }
           },
           "hover": {
             "bg": {
-              "value": "{core.color.transparent}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{core.color.transparent}"
             }
           },
           "pressed": {
             "bg": {
-              "value": "{core.color.transparent}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{core.color.transparent}"
             }
           }
         },
         "selected": {
           "enabled": {
             "bg": {
-              "value": "{core.color.transparent}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{core.color.transparent}"
             }
           },
           "hover": {
             "bg": {
-              "value": "{core.color.transparent}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{core.color.transparent}"
             }
           },
           "pressed": {
             "bg": {
-              "value": "{core.color.transparent}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{core.color.transparent}"
             }
           }
         }
       },
       "success": {
         "canvas-bg": {
-          "value": "{core.color.green.60}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{core.color.green.60}"
         }
       },
       "error": {
         "default": {
-          "value": "{core.color.red.40}",
-          "type": "color"
+          "$type": "color",
+          "$value": "{core.color.red.40}"
         }
       }
     },
     "color": {
       "modifiers": {
         "enabled-alpha": {
-          "value": "1",
-          "type": "other"
+          "$type": "other",
+          "$value": "1"
         },
         "disabled-alpha": {
-          "value": "0.5",
-          "type": "other"
+          "$type": "other",
+          "$value": "0.5"
         },
         "lightness": {
-          "value": "0.1",
-          "type": "other"
+          "$type": "other",
+          "$value": "0.1"
         },
         "button": {
           "focused": {
-            "value": "0.5",
-            "type": "other"
+            "$type": "other",
+            "$value": "0.5"
           },
           "hover": {
-            "value": "{base.color.modifiers.lightness}",
-            "type": "other"
+            "$type": "other",
+            "$value": "{base.color.modifiers.lightness}"
           },
           "pressed": {
-            "value": "{base.color.modifiers.lightness}",
-            "type": "other"
+            "$type": "other",
+            "$value": "{base.color.modifiers.lightness}"
           }
         }
       }
@@ -102,8 +102,8 @@
   "core": {
     "box-shadow": {
       "intensity": {
-        "value": "0.1",
-        "type": "other"
+        "$type": "other",
+        "$value": "0.1"
       }
     }
   }
