@@ -1,0 +1,110 @@
+{
+  "base": {
+    "fg": {
+      "default": {
+        "value": "{core.color.neutral.10}",
+        "type": "color"
+      }
+    },
+    "bg": {
+      "default": {
+        "value": "{core.color.yellow.50}",
+        "type": "color"
+      }
+    },
+    "selectable": {
+      "primary": {
+        "unselected": {
+          "enabled": {
+            "bg": {
+              "value": "{core.color.transparent}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "bg": {
+              "value": "{core.color.transparent}",
+              "type": "color"
+            }
+          },
+          "pressed": {
+            "bg": {
+              "value": "{core.color.transparent}",
+              "type": "color"
+            }
+          }
+        },
+        "selected": {
+          "enabled": {
+            "bg": {
+              "value": "{core.color.transparent}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "bg": {
+              "value": "{core.color.transparent}",
+              "type": "color"
+            }
+          },
+          "pressed": {
+            "bg": {
+              "value": "{core.color.transparent}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "success": {
+        "canvas-bg": {
+          "value": "{core.color.green.60}",
+          "type": "color"
+        }
+      },
+      "error": {
+        "default": {
+          "value": "{core.color.red.40}",
+          "type": "color"
+        }
+      }
+    },
+    "color": {
+      "modifiers": {
+        "enabled-alpha": {
+          "value": "1",
+          "type": "other"
+        },
+        "disabled-alpha": {
+          "value": "0.5",
+          "type": "other"
+        },
+        "lightness": {
+          "value": "0.1",
+          "type": "other"
+        },
+        "button": {
+          "focused": {
+            "value": "0.5",
+            "type": "other"
+          },
+          "hover": {
+            "value": "{base.color.modifiers.lightness}",
+            "type": "other"
+          },
+          "pressed": {
+            "value": "{base.color.modifiers.lightness}",
+            "type": "other"
+          }
+        }
+      }
+    }
+  },
+  "core": {
+    "box-shadow": {
+      "intensity": {
+        "value": "0.1",
+        "type": "other"
+      }
+    }
+  }
+}

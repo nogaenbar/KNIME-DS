@@ -1,0 +1,16 @@
+{
+  "comp": {
+    "button": {
+      "color": {
+        "selectable-bg": {
+          "value": "#",
+          "type": "color"
+        },
+        "selectable-fg": {
+          "value": "#",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

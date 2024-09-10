@@ -1,0 +1,54 @@
+{
+  "comp": {
+    "button": {
+      "opacity": {
+        "enabled": {
+          "value": "{base.color.modifiers.enabled-alpha}",
+          "type": "opacity"
+        },
+        "disabled": {
+          "value": "{base.color.modifiers.disabled-alpha}",
+          "type": "opacity"
+        }
+      },
+      "primary": {
+        "enabled-bg": {
+          "value": "{base.bg.default}",
+          "type": "color"
+        },
+        "enabled-border": {
+          "value": "{comp.button.primary.enabled-bg}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "0.35",
+                "space": "lch",
+                "color": "{base.fg.default} "
+              }
+            }
+          }
+        },
+        "hover-bg": {
+          "value": "{comp.button.primary.enabled-bg}",
+          "type": "color",
+          "description": "this one is created completely with the modifiers",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{base.color.modifiers.lightness} ",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "fg": {
+          "value": "{base.fg.default}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
