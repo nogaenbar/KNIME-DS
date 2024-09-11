@@ -5,7 +5,7 @@
         "$type": "color",
         "$value": "{core.color.neutral.10}"
       },
-      "disabled": {
+      "variant": {
         "$type": "color",
         "$value": "{core.color.neutral.40}"
       }
@@ -15,48 +15,112 @@
         "$type": "color",
         "$value": "{core.color.yellow.50}"
       },
-      "disabled": {
+      "variant": {
         "$type": "color",
-        "$value": "{core.color.neutral.70}"
-      }
-    },
-    "primary": {
-      "enabled": {
-        "bg": {
+        "$value": "{core.color.transparent}"
+      },
+      "primary": {
+        "enabled": {
           "$type": "color",
           "$value": "{interactive.bg.default}"
-        }
-      },
-      "hover": {
-        "bg": {
+        },
+        "hover": {
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "lighten",
-                "value": ".16",
+                "value": "{interactive.color.modifiers.button.hover}",
                 "space": "lch"
               }
             }
           },
           "$type": "color",
           "$value": "{interactive.bg.default}"
-        }
-      },
-      "focus": {
-        "bg": {
+        },
+        "focused": {
           "$type": "color",
           "$value": "{interactive.bg.default}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{core.color.neutral.70}"
         }
       },
-      "disabled": {
-        "bg": {
+      "secondary": {
+        "enabled": {
           "$type": "color",
-          "$value": "{interactive.bg.disabled}"
+          "$value": "{interactive.bg.variant}"
+        },
+        "hover": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "{interactive.color.modifiers.button.hover}",
+                "space": "lch",
+                "color": "{core.color.neutral.10}"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{interactive.bg.variant}"
+        },
+        "focused": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{interactive.color.modifiers.button.focused}",
+                "space": "lch"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{interactive.bg.variant}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{interactive.bg.variant}"
+        }
+      },
+      "tertiary": {
+        "enabled": {
+          "$type": "color",
+          "$value": "{interactive.bg.variant}"
+        },
+        "hover": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "{interactive.color.modifiers.button.hover}",
+                "space": "lch",
+                "color": "{core.color.neutral.10}"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{interactive.bg.variant}"
+        },
+        "focused": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{interactive.color.modifiers.button.focused}",
+                "space": "lch"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{interactive.bg.variant}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{interactive.bg.variant}"
         }
       }
-    }
-  },
-  "base": {
+    },
     "color": {
       "modifiers": {
         "enabled-alpha": {
@@ -69,20 +133,20 @@
         },
         "lightness": {
           "$type": "other",
-          "$value": "0.1"
+          "$value": "0.08"
         },
         "button": {
-          "focused": {
-            "$type": "other",
-            "$value": "0.5"
-          },
           "hover": {
             "$type": "other",
-            "$value": "{base.color.modifiers.lightness}"
+            "$value": "{interactive.color.modifiers.lightness}"
           },
           "pressed": {
             "$type": "other",
-            "$value": "{base.color.modifiers.lightness}"
+            "$value": "{interactive.color.modifiers.lightness}"
+          },
+          "focused": {
+            "$type": "other",
+            "$value": "0"
           }
         }
       }
