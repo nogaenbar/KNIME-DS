@@ -5,13 +5,6 @@
         "$type": "color",
         "$value": "rgba(#000000, 0)"
       },
-      "masala": {
-        "0": {
-          "$type": "color",
-          "$value": "hsl(12, 4%, 23%)",
-          "$description": "main text color \n"
-        }
-      },
       "yellow": {
         "0": {
           "$type": "color",
