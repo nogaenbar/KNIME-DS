@@ -179,6 +179,10 @@
           },
           "l": {
             "$type": "spacing",
+            "$value": "{core.dimension.125}"
+          },
+          "xl": {
+            "$type": "spacing",
             "$value": "{core.dimension.200}"
           }
         },
@@ -564,6 +568,36 @@
       "m": {
         "$type": "borderWidth",
         "$value": "{core.border-width.20}"
+      }
+    }
+  },
+  "spacing": {
+    "gap": {
+      "none": {
+        "$type": "spacing",
+        "$value": "{base.space.container.inside.none}"
+      },
+      "xxs": {
+        "$type": "spacing",
+        "$value": "{base.space.container.inside.xxs}"
+      },
+      "s": {
+        "$type": "spacing",
+        "$value": "{base.space.container.inside.s}"
+      }
+    },
+    "padding": {
+      "xxs": {
+        "$type": "spacing",
+        "$value": "{base.space.container.inside.xxs}"
+      },
+      "s": {
+        "$type": "spacing",
+        "$value": "{base.space.container.inside.s}"
+      },
+      "l": {
+        "$type": "spacing",
+        "$value": "{base.space.container.inside.l}"
       }
     }
   }
