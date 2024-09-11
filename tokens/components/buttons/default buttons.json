@@ -41,8 +41,7 @@
             }
           },
           "$type": "color",
-          "$value": "{comp.button.primary.enabled-bg}",
-          "$description": "this one is created completely with the modifiers"
+          "$value": "{comp.button.primary.enabled-bg}"
         },
         "fg": {
           "$type": "color",
