@@ -1,73 +1,62 @@
 {
-  "base": {
+  "interactive": {
     "fg": {
       "default": {
         "$type": "color",
         "$value": "{core.color.neutral.10}"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{core.color.neutral.40}"
       }
     },
     "bg": {
       "default": {
         "$type": "color",
         "$value": "{core.color.yellow.50}"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{core.color.neutral.70}"
       }
     },
-    "selectable": {
-      "primary": {
-        "unselected": {
-          "enabled": {
-            "bg": {
-              "$type": "color",
-              "$value": "{core.color.transparent}"
-            }
-          },
-          "hover": {
-            "bg": {
-              "$type": "color",
-              "$value": "{core.color.transparent}"
-            }
-          },
-          "pressed": {
-            "bg": {
-              "$type": "color",
-              "$value": "{core.color.transparent}"
-            }
-          }
-        },
-        "selected": {
-          "enabled": {
-            "bg": {
-              "$type": "color",
-              "$value": "{core.color.transparent}"
-            }
-          },
-          "hover": {
-            "bg": {
-              "$type": "color",
-              "$value": "{core.color.transparent}"
-            }
-          },
-          "pressed": {
-            "bg": {
-              "$type": "color",
-              "$value": "{core.color.transparent}"
-            }
-          }
+    "primary": {
+      "enabled": {
+        "bg": {
+          "$type": "color",
+          "$value": "{interactive.bg.default}"
         }
       },
-      "success": {
-        "canvas-bg": {
+      "hover": {
+        "bg": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": ".16",
+                "space": "lch"
+              }
+            }
+          },
           "$type": "color",
-          "$value": "{core.color.green.60}"
+          "$value": "{interactive.bg.default}"
         }
       },
-      "error": {
-        "default": {
+      "focus": {
+        "bg": {
           "$type": "color",
-          "$value": "{core.color.red.40}"
+          "$value": "{interactive.bg.default}"
+        }
+      },
+      "disabled": {
+        "bg": {
+          "$type": "color",
+          "$value": "{interactive.bg.disabled}"
         }
       }
-    },
+    }
+  },
+  "base": {
     "color": {
       "modifiers": {
         "enabled-alpha": {
