@@ -6,7 +6,8 @@
     "selectedTokenSets": {
       "core": "source",
       "themes/styles": "source",
-      "themes/colors/light": "enabled"
+      "themes/colors/light": "enabled",
+      "themes/colors/dark": "disabled"
     },
     "group": "mode"
   },
