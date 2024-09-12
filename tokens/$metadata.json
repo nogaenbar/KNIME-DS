@@ -1,8 +1,8 @@
 {
   "tokenSetOrder": [
     "core",
-    "themes/styles",
-    "themes/colors/light",
-    "themes/colors/dark"
+    "collections/styles",
+    "collections/colors/light",
+    "collections/colors/dark"
   ]
 }

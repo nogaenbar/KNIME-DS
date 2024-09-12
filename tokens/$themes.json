@@ -5,9 +5,9 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core": "source",
-      "themes/styles": "source",
-      "themes/colors/light": "enabled",
-      "themes/colors/dark": "disabled"
+      "collections/styles": "source",
+      "collections/colors/light": "enabled",
+      "collections/colors/dark": "disabled"
     },
     "group": "mode"
   },
@@ -17,8 +17,9 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core": "source",
-      "themes/styles": "source",
-      "themes/colors/dark": "enabled"
+      "collections/styles": "source",
+      "collections/colors/light": "disabled",
+      "collections/colors/dark": "enabled"
     },
     "group": "mode"
   }
