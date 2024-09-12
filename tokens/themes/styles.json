@@ -581,6 +581,10 @@
         "$type": "spacing",
         "$value": "{base.space.container.inside.xxs}"
       },
+      "xs": {
+        "$type": "spacing",
+        "$value": "{base.space.container.inside.xs}"
+      },
       "s": {
         "$type": "spacing",
         "$value": "{base.space.container.inside.s}"
@@ -594,6 +598,10 @@
       "s": {
         "$type": "spacing",
         "$value": "{base.space.container.inside.s}"
+      },
+      "m": {
+        "$type": "spacing",
+        "$value": "{base.space.container.inside.m}"
       },
       "l": {
         "$type": "spacing",

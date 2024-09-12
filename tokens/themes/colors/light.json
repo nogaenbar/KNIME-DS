@@ -5,7 +5,7 @@
         "$type": "color",
         "$value": "{core.color.neutral.10}"
       },
-      "variant": {
+      "subtle": {
         "$type": "color",
         "$value": "{core.color.neutral.40}"
       }
@@ -15,7 +15,7 @@
         "$type": "color",
         "$value": "{core.color.yellow.50}"
       },
-      "variant": {
+      "none": {
         "$type": "color",
         "$value": "{core.color.transparent}"
       },
@@ -49,7 +49,7 @@
       "secondary": {
         "enabled": {
           "$type": "color",
-          "$value": "{interactive.bg.variant}"
+          "$value": "{interactive.bg.none}"
         },
         "hover": {
           "$extensions": {
@@ -63,7 +63,7 @@
             }
           },
           "$type": "color",
-          "$value": "{interactive.bg.variant}"
+          "$value": "{interactive.bg.none}"
         },
         "focused": {
           "$extensions": {
@@ -76,17 +76,17 @@
             }
           },
           "$type": "color",
-          "$value": "{interactive.bg.variant}"
+          "$value": "{interactive.bg.none}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{interactive.bg.variant}"
+          "$value": "{interactive.bg.none}"
         }
       },
       "tertiary": {
         "enabled": {
           "$type": "color",
-          "$value": "{interactive.bg.variant}"
+          "$value": "{interactive.bg.none}"
         },
         "hover": {
           "$extensions": {
@@ -100,7 +100,7 @@
             }
           },
           "$type": "color",
-          "$value": "{interactive.bg.variant}"
+          "$value": "{interactive.bg.none}"
         },
         "focused": {
           "$extensions": {
@@ -113,11 +113,11 @@
             }
           },
           "$type": "color",
-          "$value": "{interactive.bg.variant}"
+          "$value": "{interactive.bg.none}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{interactive.bg.variant}"
+          "$value": "{interactive.bg.none}"
         }
       }
     },
@@ -157,6 +157,32 @@
       "intensity": {
         "$type": "other",
         "$value": "0.1"
+      }
+    }
+  },
+  "border": {
+    "default": {
+      "$type": "border",
+      "$value": {
+        "color": "{core.color.neutral.20}",
+        "width": "{base.border-width.s}",
+        "style": "solid"
+      }
+    },
+    "subtle": {
+      "$type": "border",
+      "$value": {
+        "color": "{core.color.neutral.40}",
+        "width": "{base.border-width.s}",
+        "style": "solid"
+      }
+    },
+    "brand": {
+      "$type": "border",
+      "$value": {
+        "color": "{core.color.yellow.40}",
+        "width": "{base.border-width.s}",
+        "style": "solid"
       }
     }
   }
