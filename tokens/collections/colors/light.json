@@ -22,7 +22,7 @@
       "primary": {
         "enabled": {
           "$type": "color",
-          "$value": "{interactive.bg.default}"
+          "$value": "{interactive.button.bg.default}"
         },
         "hover": {
           "$extensions": {
@@ -35,11 +35,11 @@
             }
           },
           "$type": "color",
-          "$value": "{interactive.bg.default}"
+          "$value": "{interactive.button.bg.default}"
         },
         "focused": {
           "$type": "color",
-          "$value": "{interactive.bg.default}"
+          "$value": "{interactive.button.bg.default}"
         },
         "disabled": {
           "$type": "color",
@@ -49,7 +49,7 @@
       "secondary": {
         "enabled": {
           "$type": "color",
-          "$value": "{interactive.bg.none}"
+          "$value": "{interactive.button.bg.none}"
         },
         "hover": {
           "$extensions": {
@@ -63,7 +63,7 @@
             }
           },
           "$type": "color",
-          "$value": "{interactive.bg.none}"
+          "$value": "{interactive.button.bg.none}"
         },
         "focused": {
           "$extensions": {
@@ -76,17 +76,17 @@
             }
           },
           "$type": "color",
-          "$value": "{interactive.bg.none}"
+          "$value": "{interactive.button.bg.none}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{interactive.bg.none}"
+          "$value": "{interactive.button.bg.none}"
         }
       },
       "tertiary": {
         "enabled": {
           "$type": "color",
-          "$value": "{interactive.bg.none}"
+          "$value": "{interactive.button.bg.none}"
         },
         "hover": {
           "$extensions": {
@@ -100,7 +100,7 @@
             }
           },
           "$type": "color",
-          "$value": "{interactive.bg.none}"
+          "$value": "{interactive.button.bg.none}"
         },
         "focused": {
           "$extensions": {
@@ -113,11 +113,11 @@
             }
           },
           "$type": "color",
-          "$value": "{interactive.bg.none}"
+          "$value": "{interactive.button.bg.none}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{interactive.bg.none}"
+          "$value": "{interactive.button.bg.none}"
         }
       }
     },
