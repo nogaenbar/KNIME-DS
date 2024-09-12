@@ -2,81 +2,81 @@
   "base": {
     "font-family": {
       "title": {
-        "$type": "fontFamilies",
-        "$value": "Roboto"
+        "value": "Roboto",
+        "type": "fontFamilies"
       },
       "body": {
-        "$type": "fontFamilies",
-        "$value": "Roboto"
+        "value": "Roboto",
+        "type": "fontFamilies"
       },
       "interface": {
-        "$type": "fontFamilies",
-        "$value": "Roboto"
+        "value": "Roboto",
+        "type": "fontFamilies"
       }
     },
     "font-weight": {
       "title": {
-        "$type": "fontWeights",
-        "$value": "700"
+        "value": "700",
+        "type": "fontWeights"
       },
       "body": {
-        "$type": "fontWeights",
-        "$value": "400"
+        "value": "400",
+        "type": "fontWeights"
       },
       "interface-default": {
-        "$type": "fontWeights",
-        "$value": "400"
+        "value": "400",
+        "type": "fontWeights"
       },
       "interface-strong": {
-        "$type": "fontWeights",
-        "$value": "700"
+        "value": "700",
+        "type": "fontWeights"
       }
     },
     "size": {
       "web": {
         "breakpoint": {
           "s": {
-            "$type": "sizing",
-            "$value": "576"
+            "value": "576",
+            "type": "sizing"
           },
           "m": {
-            "$type": "sizing",
-            "$value": "768"
+            "value": "768",
+            "type": "sizing"
           },
           "l": {
-            "$type": "sizing",
-            "$value": "1024"
+            "value": "1024",
+            "type": "sizing"
           },
           "xl": {
-            "$type": "sizing",
-            "$value": "1200"
+            "value": "1200",
+            "type": "sizing"
           },
           "xxl": {
-            "$type": "sizing",
-            "$value": "1400"
+            "value": "1400",
+            "type": "sizing"
           },
           "xxxl": {
-            "$type": "sizing",
-            "$value": "1728"
+            "value": "1728",
+            "type": "sizing"
           }
         }
       },
       "icon": {
         "s": {
-          "$type": "sizing",
-          "$value": "{core.dimension.100}"
+          "value": "{core.dimension.100}",
+          "type": "sizing"
         },
         "m": {
-          "$type": "sizing",
-          "$value": "{core.dimension.150}"
+          "value": "{core.dimension.150}",
+          "type": "sizing"
         },
         "l": {
-          "$type": "sizing",
-          "$value": "{core.dimension.250}"
+          "value": "{core.dimension.250}",
+          "type": "sizing"
         },
         "xl": {
-          "$type": "sizing",
-          "$value": "{core.dimension.500}"
+          "value": "{core.dimension.500}",
+          "type": "sizing"
         }
       }
     },
@@ -84,524 +84,524 @@
       "page": {
         "inset": {
           "none": {
-            "$type": "spacing",
-            "$value": "{core.dimension.0}",
-            "$description": "This is basically your page margin (in breakpoints-speak)."
+            "value": "{core.dimension.0}",
+            "description": "This is basically your page margin (in breakpoints-speak).",
+            "type": "spacing"
           },
           "s": {
-            "$type": "spacing",
-            "$value": "{core.dimension.100}"
+            "value": "{core.dimension.100}",
+            "type": "spacing"
           },
           "m": {
-            "$type": "spacing",
-            "$value": "{core.dimension.150}"
+            "value": "{core.dimension.150}",
+            "type": "spacing"
           },
           "l": {
-            "$type": "spacing",
-            "$value": "{core.dimension.200}"
+            "value": "{core.dimension.200}",
+            "type": "spacing"
           },
           "xl": {
-            "$type": "spacing",
-            "$value": "{core.dimension.300}"
+            "value": "{core.dimension.300}",
+            "type": "spacing"
           }
         },
         "inside": {
           "none": {
-            "$type": "spacing",
-            "$value": "{core.dimension.0}",
-            "$description": "This is basically your page gutter (in breakpoints-speak)."
+            "value": "{core.dimension.0}",
+            "description": "This is basically your page gutter (in breakpoints-speak).",
+            "type": "spacing"
           },
           "xxs": {
-            "$type": "spacing",
-            "$value": "{core.dimension.25}"
+            "value": "{core.dimension.25}",
+            "type": "spacing"
           },
           "xs": {
-            "$type": "spacing",
-            "$value": "{core.dimension.50}"
+            "value": "{core.dimension.50}",
+            "type": "spacing"
           },
           "s": {
-            "$type": "spacing",
-            "$value": "{core.dimension.100}"
+            "value": "{core.dimension.100}",
+            "type": "spacing"
           },
           "m": {
-            "$type": "spacing",
-            "$value": "{core.dimension.200}"
+            "value": "{core.dimension.200}",
+            "type": "spacing"
           },
           "l": {
-            "$type": "spacing",
-            "$value": "{core.dimension.400}"
+            "value": "{core.dimension.400}",
+            "type": "spacing"
           },
           "xl": {
-            "$type": "spacing",
-            "$value": "{core.dimension.800}"
+            "value": "{core.dimension.800}",
+            "type": "spacing"
           },
           "xxl": {
-            "$type": "spacing",
-            "$value": "{core.dimension.1600}"
+            "value": "{core.dimension.1600}",
+            "type": "spacing"
           }
         }
       },
       "container": {
         "inset": {
           "none": {
-            "$type": "spacing",
-            "$value": "{core.dimension.0}"
+            "value": "{core.dimension.0}",
+            "type": "spacing"
           },
           "s": {
-            "$type": "spacing",
-            "$value": "{core.dimension.100}"
+            "value": "{core.dimension.100}",
+            "type": "spacing"
           },
           "m": {
-            "$type": "spacing",
-            "$value": "{core.dimension.150}"
+            "value": "{core.dimension.150}",
+            "type": "spacing"
           }
         },
         "inside": {
           "none": {
-            "$type": "spacing",
-            "$value": "{core.dimension.0}"
+            "value": "{core.dimension.0}",
+            "type": "spacing"
           },
           "xxs": {
-            "$type": "spacing",
-            "$value": "{core.dimension.12}"
+            "value": "{core.dimension.12}",
+            "type": "spacing"
           },
           "xs": {
-            "$type": "spacing",
-            "$value": "{core.dimension.25}"
+            "value": "{core.dimension.25}",
+            "type": "spacing"
           },
           "s": {
-            "$type": "spacing",
-            "$value": "{core.dimension.50}"
+            "value": "{core.dimension.50}",
+            "type": "spacing"
           },
           "m": {
-            "$type": "spacing",
-            "$value": "{core.dimension.100}"
+            "value": "{core.dimension.100}",
+            "type": "spacing"
           },
           "l": {
-            "$type": "spacing",
-            "$value": "{core.dimension.125}"
+            "value": "{core.dimension.125}",
+            "type": "spacing"
           },
           "xl": {
-            "$type": "spacing",
-            "$value": "{core.dimension.200}"
+            "value": "{core.dimension.200}",
+            "type": "spacing"
           }
         },
         "stack": {
           "s": {
-            "$type": "spacing",
-            "$value": "{core.dimension.100}"
+            "value": "{core.dimension.100}",
+            "type": "spacing"
           },
           "m": {
-            "$type": "spacing",
-            "$value": "{core.dimension.150}"
+            "value": "{core.dimension.150}",
+            "type": "spacing"
           }
         }
       },
       "selectable": {
         "inset": {
           "none": {
-            "$type": "spacing",
-            "$value": "{core.dimension.0}"
+            "value": "{core.dimension.0}",
+            "type": "spacing"
           },
           "s": {
-            "$type": "spacing",
-            "$value": "{core.dimension.50}"
+            "value": "{core.dimension.50}",
+            "type": "spacing"
           },
           "m": {
-            "$type": "spacing",
-            "$value": "{core.dimension.75}"
+            "value": "{core.dimension.75}",
+            "type": "spacing"
           },
           "l": {
-            "$type": "spacing",
-            "$value": "{core.dimension.100}"
+            "value": "{core.dimension.100}",
+            "type": "spacing"
           }
         },
         "inside": {
           "none": {
-            "$type": "spacing",
-            "$value": "{core.dimension.0}"
+            "value": "{core.dimension.0}",
+            "type": "spacing"
           },
           "xs": {
-            "$type": "spacing",
-            "$value": "{core.dimension.12}"
+            "value": "{core.dimension.12}",
+            "type": "spacing"
           },
           "s": {
-            "$type": "spacing",
-            "$value": "{core.dimension.25}"
+            "value": "{core.dimension.25}",
+            "type": "spacing"
           },
           "m": {
-            "$type": "spacing",
-            "$value": "{core.dimension.50}"
+            "value": "{core.dimension.50}",
+            "type": "spacing"
           },
           "l": {
-            "$type": "spacing",
-            "$value": "{core.dimension.100}"
+            "value": "{core.dimension.100}",
+            "type": "spacing"
           }
         },
         "stack": {
           "s": {
-            "$type": "spacing",
-            "$value": "{core.dimension.100}"
+            "value": "{core.dimension.100}",
+            "type": "spacing"
           },
           "m": {
-            "$type": "spacing",
-            "$value": "{core.dimension.150}"
+            "value": "{core.dimension.150}",
+            "type": "spacing"
           }
         }
       }
     },
     "font-size": {
       "s": {
-        "$type": "fontSizes",
-        "$value": "{core.font-size.scaled.75}"
+        "value": "{core.font-size.scaled.75}",
+        "type": "fontSizes"
       },
       "sm": {
-        "$type": "fontSizes",
-        "$value": "{core.font-size.scaled.87}"
+        "value": "{core.font-size.scaled.87}",
+        "type": "fontSizes"
       },
       "m": {
-        "$type": "fontSizes",
-        "$value": "{core.font-size.scaled.100}",
-        "$description": "m is the size of body text which is typically the same size as h6."
+        "value": "{core.font-size.scaled.100}",
+        "description": "m is the size of body text which is typically the same size as h6.",
+        "type": "fontSizes"
       },
       "ml": {
-        "$type": "fontSizes",
-        "$value": "{core.font-size.scaled.125}",
-        "$description": "ml is large body text which is typically the same size as h5."
+        "value": "{core.font-size.scaled.125}",
+        "description": "ml is large body text which is typically the same size as h5.",
+        "type": "fontSizes"
       },
       "l": {
-        "$type": "fontSizes",
-        "$value": "{core.font-size.scaled.150}"
+        "value": "{core.font-size.scaled.150}",
+        "type": "fontSizes"
       },
       "xl": {
-        "$type": "fontSizes",
-        "$value": "{core.font-size.scaled.200}"
+        "value": "{core.font-size.scaled.200}",
+        "type": "fontSizes"
       },
       "xxl": {
-        "$type": "fontSizes",
-        "$value": "{core.font-size.scaled.250}"
+        "value": "{core.font-size.scaled.250}",
+        "type": "fontSizes"
       },
       "xxxl": {
-        "$type": "fontSizes",
-        "$value": "{core.font-size.scaled.300}",
-        "$description": "xxxl is your h1, but don't tell anyone, we want to speak in tokens not in HTML markup."
+        "value": "{core.font-size.scaled.300}",
+        "description": "xxxl is your h1, but don't tell anyone, we want to speak in tokens not in HTML markup.",
+        "type": "fontSizes"
       }
     },
     "typography": {
       "title": {
         "m": {
-          "$type": "typography",
-          "$value": {
+          "value": {
             "fontFamily": "{base.font-family.title}",
             "fontWeight": "{base.font-weight.title}",
             "lineHeight": "{base.line-height.title}",
             "fontSize": "{base.font-size.m}",
             "paragraphSpacing": "{base.font-size.m} * {base.paragraph-spacing.title}"
-          }
+          },
+          "type": "typography"
         },
         "ml": {
-          "$type": "typography",
-          "$value": {
+          "value": {
             "fontFamily": "{base.font-family.title}",
             "fontWeight": "{base.font-weight.title}",
             "lineHeight": "{base.line-height.title}",
             "fontSize": "{base.font-size.ml}",
             "paragraphSpacing": "{base.font-size.ml} * {base.paragraph-spacing.title}"
-          }
+          },
+          "type": "typography"
         },
         "l": {
-          "$type": "typography",
-          "$value": {
+          "value": {
             "fontFamily": "{base.font-family.title}",
             "fontWeight": "{base.font-weight.title}",
             "lineHeight": "{base.line-height.title}",
             "fontSize": "{base.font-size.l}",
             "paragraphSpacing": "{base.font-size.l} * {base.paragraph-spacing.title}"
-          }
+          },
+          "type": "typography"
         },
         "xl": {
-          "$type": "typography",
-          "$value": {
+          "value": {
             "fontFamily": "{base.font-family.title}",
             "fontWeight": "{base.font-weight.title}",
             "lineHeight": "{base.line-height.title}",
             "fontSize": "{base.font-size.xl}",
             "paragraphSpacing": "{base.font-size.xl} * {base.paragraph-spacing.title}"
-          }
+          },
+          "type": "typography"
         },
         "xxl": {
-          "$type": "typography",
-          "$value": {
+          "value": {
             "fontFamily": "{base.font-family.title}",
             "fontWeight": "{base.font-weight.title}",
             "lineHeight": "{base.line-height.title}",
             "fontSize": "{base.font-size.xxl}",
             "paragraphSpacing": "{base.font-size.xxl} * {base.paragraph-spacing.title}"
-          }
+          },
+          "type": "typography"
         },
         "xxxl": {
-          "$type": "typography",
-          "$value": {
+          "value": {
             "fontFamily": "{base.font-family.title}",
             "fontWeight": "{base.font-weight.title}",
             "lineHeight": "{base.line-height.title}",
             "fontSize": "{base.font-size.xxxl}",
             "paragraphSpacing": "{base.font-size.xxxl} * {base.paragraph-spacing.title}"
-          }
+          },
+          "type": "typography"
         }
       },
       "body": {
         "s": {
-          "$type": "typography",
-          "$value": {
+          "value": {
             "fontFamily": "{base.font-family.body}",
             "fontWeight": "{base.font-weight.body}",
             "lineHeight": "{base.line-height.body}",
             "fontSize": "{base.font-size.s}",
             "paragraphSpacing": "{base.font-size.s} * {base.paragraph-spacing.body}"
-          }
+          },
+          "type": "typography"
         },
         "sm": {
-          "$type": "typography",
-          "$value": {
+          "value": {
             "fontFamily": "{base.font-family.body}",
             "fontWeight": "{base.font-weight.body}",
             "lineHeight": "{base.line-height.body}",
             "fontSize": "{base.font-size.sm}",
             "paragraphSpacing": "{base.font-size.sm} * {base.paragraph-spacing.body}"
-          }
+          },
+          "type": "typography"
         },
         "m": {
-          "$type": "typography",
-          "$value": {
+          "value": {
             "fontFamily": "{base.font-family.body}",
             "fontWeight": "{base.font-weight.body}",
             "lineHeight": "{base.line-height.body}",
             "fontSize": "{base.font-size.m}",
             "paragraphSpacing": "{base.font-size.m} * {base.paragraph-spacing.body}"
-          }
+          },
+          "type": "typography"
         },
         "ml": {
-          "$type": "typography",
-          "$value": {
+          "value": {
             "fontFamily": "{base.font-family.body}",
             "fontWeight": "{base.font-weight.body}",
             "lineHeight": "{base.line-height.body}",
             "fontSize": "{base.font-size.ml}",
             "paragraphSpacing": "{base.font-size.ml} * {base.paragraph-spacing.body}"
-          }
+          },
+          "type": "typography"
         }
       },
       "interface": {
         "strong": {
           "s": {
-            "$type": "typography",
-            "$value": {
+            "value": {
               "fontFamily": "{base.font-family.interface}",
               "fontWeight": "{base.font-weight.interface-strong}",
               "lineHeight": "{base.line-height.interface}",
               "fontSize": "{base.font-size.s}",
               "paragraphSpacing": "{base.font-size.s} * {base.paragraph-spacing.interface}"
-            }
+            },
+            "type": "typography"
           },
           "sm": {
-            "$type": "typography",
-            "$value": {
+            "value": {
               "fontFamily": "{base.font-family.interface}",
               "fontWeight": "{base.font-weight.interface-strong}",
               "lineHeight": "{base.line-height.interface}",
               "fontSize": "{base.font-size.sm}",
               "paragraphSpacing": "{base.font-size.sm} * {base.paragraph-spacing.interface}"
-            }
+            },
+            "type": "typography"
           },
           "m": {
-            "$type": "typography",
-            "$value": {
+            "value": {
               "fontFamily": "{base.font-family.interface}",
               "fontWeight": "{base.font-weight.interface-strong}",
               "lineHeight": "{base.line-height.interface}",
               "fontSize": "{base.font-size.m}",
               "paragraphSpacing": "{base.font-size.m} * {base.paragraph-spacing.interface}"
-            }
+            },
+            "type": "typography"
           },
           "ml": {
-            "$type": "typography",
-            "$value": {
+            "value": {
               "fontFamily": "{base.font-family.interface}",
               "fontWeight": "{base.font-weight.interface-strong}",
               "lineHeight": "{base.line-height.interface}",
               "fontSize": "{base.font-size.ml}",
               "paragraphSpacing": "{base.font-size.ml} * {base.paragraph-spacing.interface}"
-            }
+            },
+            "type": "typography"
           },
           "l": {
-            "$type": "typography",
-            "$value": {
+            "value": {
               "fontFamily": "{base.font-family.interface}",
               "fontWeight": "{base.font-weight.interface-strong}",
               "lineHeight": "{base.line-height.interface}",
               "fontSize": "{base.font-size.l}",
               "paragraphSpacing": "{base.font-size.l} * {base.paragraph-spacing.interface}"
-            }
+            },
+            "type": "typography"
           }
         },
         "default": {
           "s": {
-            "$type": "typography",
-            "$value": {
+            "value": {
               "fontFamily": "{base.font-family.interface}",
               "fontWeight": "{base.font-weight.interface-default}",
               "lineHeight": "{base.line-height.interface}",
               "fontSize": "{base.font-size.s}",
               "paragraphSpacing": "{base.font-size.s} * {base.paragraph-spacing.interface}"
-            }
+            },
+            "type": "typography"
           },
           "sm": {
-            "$type": "typography",
-            "$value": {
+            "value": {
               "fontFamily": "{base.font-family.interface}",
               "fontWeight": "{base.font-weight.interface-default}",
               "lineHeight": "{base.line-height.interface}",
               "fontSize": "{base.font-size.sm}",
               "paragraphSpacing": "{base.font-size.sm} * {base.paragraph-spacing.interface}"
-            }
+            },
+            "type": "typography"
           },
           "m": {
-            "$type": "typography",
-            "$value": {
+            "value": {
               "fontFamily": "{base.font-family.interface}",
               "fontWeight": "{base.font-weight.interface-default}",
               "lineHeight": "{base.line-height.interface}",
               "fontSize": "{base.font-size.m}",
               "paragraphSpacing": "{base.font-size.m} * {base.paragraph-spacing.interface}"
-            }
+            },
+            "type": "typography"
           },
           "ml": {
-            "$type": "typography",
-            "$value": {
+            "value": {
               "fontFamily": "{base.font-family.interface}",
               "fontWeight": "{base.font-weight.interface-default}",
               "lineHeight": "{base.line-height.interface}",
               "fontSize": "{base.font-size.ml}",
               "paragraphSpacing": "{base.font-size.ml} * {base.paragraph-spacing.interface}"
-            }
+            },
+            "type": "typography"
           },
           "l": {
-            "$type": "typography",
-            "$value": {
+            "value": {
               "fontFamily": "{base.font-family.interface}",
               "fontWeight": "{base.font-weight.interface-default}",
               "lineHeight": "{base.line-height.interface}",
               "fontSize": "{base.font-size.l}",
               "paragraphSpacing": "{base.font-size.l} * {base.paragraph-spacing.interface}"
-            }
+            },
+            "type": "typography"
           }
         }
       }
     },
     "line-height": {
       "title": {
-        "$type": "lineHeights",
-        "$value": "{core.line-height.m}"
+        "value": "{core.line-height.m}",
+        "type": "lineHeights"
       },
       "body": {
-        "$type": "lineHeights",
-        "$value": "{core.line-height.l}"
+        "value": "{core.line-height.l}",
+        "type": "lineHeights"
       },
       "interface": {
-        "$type": "lineHeights",
-        "$value": "{core.line-height.s}"
+        "value": "{core.line-height.s}",
+        "type": "lineHeights"
       }
     },
     "paragraph-spacing": {
       "title": {
-        "$type": "paragraphSpacing",
-        "$value": "{core.paragraph-spacing.none}"
+        "value": "{core.paragraph-spacing.none}",
+        "type": "paragraphSpacing"
       },
       "body": {
-        "$type": "paragraphSpacing",
-        "$value": "{core.paragraph-spacing.m}"
+        "value": "{core.paragraph-spacing.m}",
+        "type": "paragraphSpacing"
       },
       "interface": {
-        "$type": "paragraphSpacing",
-        "$value": "{core.paragraph-spacing.s}"
+        "value": "{core.paragraph-spacing.s}",
+        "type": "paragraphSpacing"
       }
     },
     "border-radius": {
       "scale": {
-        "$type": "borderRadius",
-        "$value": "1",
-        "$description": "changing this will change the roundness of all border-radiuses simultaneously."
+        "value": "1",
+        "description": "changing this will change the roundness of all border-radiuses simultaneously.",
+        "type": "borderRadius"
       },
       "container": {
         "none": {
-          "$type": "borderRadius",
-          "$value": "{base.border-radius.scale} * {core.border-radius.0}"
+          "value": "{base.border-radius.scale} * {core.border-radius.0}",
+          "type": "borderRadius"
         },
         "s": {
-          "$type": "borderRadius",
-          "$value": "{base.border-radius.scale} * {core.border-radius.50}"
+          "value": "{base.border-radius.scale} * {core.border-radius.50}",
+          "type": "borderRadius"
         },
         "m": {
-          "$type": "borderRadius",
-          "$value": "{base.border-radius.scale} * {core.border-radius.100}"
+          "value": "{base.border-radius.scale} * {core.border-radius.100}",
+          "type": "borderRadius"
         },
         "l": {
-          "$type": "borderRadius",
-          "$value": "{base.border-radius.scale} * {core.border-radius.150}"
+          "value": "{base.border-radius.scale} * {core.border-radius.150}",
+          "type": "borderRadius"
         },
         "pill": {
-          "$type": "borderRadius",
-          "$value": "{base.border-radius.scale} * {core.border-radius.pill}"
+          "value": "{base.border-radius.scale} * {core.border-radius.pill}",
+          "type": "borderRadius"
         }
       }
     },
     "border-width": {
       "none": {
-        "$type": "borderWidth",
-        "$value": "{core.border-width.0}"
+        "value": "{core.border-width.0}",
+        "type": "borderWidth"
       },
       "s": {
-        "$type": "borderWidth",
-        "$value": "{core.border-width.10}"
+        "value": "{core.border-width.10}",
+        "type": "borderWidth"
       },
       "m": {
-        "$type": "borderWidth",
-        "$value": "{core.border-width.20}"
+        "value": "{core.border-width.20}",
+        "type": "borderWidth"
       }
     }
   },
   "spacing": {
     "gap": {
       "none": {
-        "$type": "spacing",
-        "$value": "{base.space.container.inside.none}"
+        "value": "{base.space.container.inside.none}",
+        "type": "spacing"
       },
       "xxs": {
-        "$type": "spacing",
-        "$value": "{base.space.container.inside.xxs}"
+        "value": "{base.space.container.inside.xxs}",
+        "type": "spacing"
       },
       "s": {
-        "$type": "spacing",
-        "$value": "{base.space.container.inside.s}"
+        "value": "{base.space.container.inside.s}",
+        "type": "spacing"
       }
     },
     "padding": {
       "xxs": {
-        "$type": "spacing",
-        "$value": "{base.space.container.inside.xxs}"
+        "value": "{base.space.container.inside.xxs}",
+        "type": "spacing"
       },
       "s": {
-        "$type": "spacing",
-        "$value": "{base.space.container.inside.s}"
+        "value": "{base.space.container.inside.s}",
+        "type": "spacing"
       },
       "m": {
-        "$type": "spacing",
-        "$value": "{base.space.container.inside.m}"
+        "value": "{base.space.container.inside.m}",
+        "type": "spacing"
       },
       "l": {
-        "$type": "spacing",
-        "$value": "{base.space.container.inside.l}"
+        "value": "{base.space.container.inside.l}",
+        "type": "spacing"
       }
     }
   }
