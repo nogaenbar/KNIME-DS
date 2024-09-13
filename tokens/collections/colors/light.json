@@ -1,4 +1,22 @@
 {
+  "bg": {
+    "default": {
+      "$type": "color",
+      "$value": "{core.color.neutral.100}"
+    },
+    "subtle": {
+      "$type": "color",
+      "$value": "{core.color.neutral.90}"
+    },
+    "muted": {
+      "$type": "color",
+      "$value": "{core.color.neutral.80}"
+    },
+    "deep": {
+      "$type": "color",
+      "$value": "{core.color.neutral.10}"
+    }
+  },
   "interactive": {
     "fg": {
       "default": {
