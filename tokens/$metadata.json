@@ -1,11 +1,8 @@
 {
   "tokenSetOrder": [
     "core",
-    "themes/styles",
-    "themes/colors/light",
-    "themes/colors/dark",
-    "components/buttons/default buttons",
-    "components/buttons/success",
-    "components/buttons/error"
+    "collections/styles",
+    "collections/colors/light",
+    "collections/colors/dark"
   ]
 }
