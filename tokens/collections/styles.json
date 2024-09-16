@@ -63,19 +63,20 @@
       },
       "icon": {
         "s": {
+          "value": "{core.dimension.75}",
+          "type": "sizing",
+          "description": "Smallest icon size"
+        },
+        "m": {
           "value": "{core.dimension.100}",
           "type": "sizing"
         },
-        "m": {
-          "value": "{core.dimension.150}",
-          "type": "sizing"
-        },
         "l": {
-          "value": "{core.dimension.250}",
+          "value": "{core.dimension.125}",
           "type": "sizing"
         },
         "xl": {
-          "value": "{core.dimension.500}",
+          "value": "{core.dimension.150}",
           "type": "sizing"
         }
       }
