@@ -604,5 +604,25 @@
         "$value": "{base.space.container.inside.l}"
       }
     }
+  },
+  "icon-stroke": {
+    "$type": "border",
+    "$value": {
+      "width": "{base.border-width.s}"
+    }
+  },
+  "icon-size": {
+    "large": {
+      "$type": "dimension",
+      "$value": "{core.dimension.125}"
+    },
+    "medium": {
+      "$type": "dimension",
+      "$value": "{core.dimension.100}"
+    },
+    "small": {
+      "$type": "dimension",
+      "$value": "{core.dimension.75}"
+    }
   }
 }
