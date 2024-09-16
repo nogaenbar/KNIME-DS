@@ -47,7 +47,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "lighten",
-                  "value": "{interactive.color.modifiers.button.hover}",
+                  "value": "{interactive.color.modifiers.states.hover.light}",
                   "space": "lch"
                 }
               }
@@ -73,15 +73,15 @@
             "$extensions": {
               "studio.tokens": {
                 "modify": {
-                  "type": "mix",
-                  "value": "{interactive.color.modifiers.button.hover}",
+                  "type": "alpha",
+                  "value": "{interactive.color.modifiers.hover-alpha}",
                   "space": "lch",
                   "color": "{core.color.neutral.10}"
                 }
               }
             },
             "$type": "color",
-            "$value": "{interactive.button.bg.none}"
+            "$value": "{core.color.neutral.30}"
           },
           "focused": {
             "$extensions": {
@@ -110,15 +110,15 @@
             "$extensions": {
               "studio.tokens": {
                 "modify": {
-                  "type": "mix",
-                  "value": "{interactive.color.modifiers.button.hover}",
+                  "type": "alpha",
+                  "value": "{interactive.color.modifiers.hover-alpha}",
                   "space": "lch",
                   "color": "{core.color.neutral.10}"
                 }
               }
             },
             "$type": "color",
-            "$value": "{interactive.button.bg.none}"
+            "$value": "{core.color.neutral.30}"
           },
           "focused": {
             "$extensions": {
@@ -142,17 +142,13 @@
     },
     "color": {
       "modifiers": {
-        "enabled-alpha": {
+        "hover-alpha": {
           "$type": "other",
-          "$value": "1"
-        },
-        "disabled-alpha": {
-          "$type": "other",
-          "$value": "0.5"
+          "$value": "0.8"
         },
         "lightness": {
           "$type": "other",
-          "$value": "0.08"
+          "$value": "0.16"
         },
         "button": {
           "hover": {
