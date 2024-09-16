@@ -241,10 +241,14 @@
         },
         "stack": {
           "s": {
-            "value": "{core.dimension.100}",
+            "value": "{core.dimension.50}",
             "type": "spacing"
           },
           "m": {
+            "value": "{core.dimension.100}",
+            "type": "spacing"
+          },
+          "l": {
             "value": "{core.dimension.150}",
             "type": "spacing"
           }
