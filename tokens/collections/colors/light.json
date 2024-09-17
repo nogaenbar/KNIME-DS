@@ -217,6 +217,14 @@
         "style": "solid"
       },
       "type": "border"
+    },
+    "strong": {
+      "value": {
+        "color": "{core.color.yellow.50}",
+        "width": "2",
+        "style": "solid"
+      },
+      "type": "border"
     }
   }
 }
