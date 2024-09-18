@@ -7,19 +7,19 @@
       },
       "neutral": {
         "0": {
-          "value": "hsl(0, 0%, 0%)",
+          "value": "hsl(0, 0%, 2%)",
           "type": "color"
         },
         "10": {
-          "value": "hsl(0, 0%, 13%)",
+          "value": "hsl(0, 0%, 10%)",
           "type": "color"
         },
         "20": {
-          "value": "hsl(0, 0%, 20%)",
+          "value": "hsl(0, 0%, 13%)",
           "type": "color"
         },
         "30": {
-          "value": "hsl(0, 0%, 38%)",
+          "value": "hsl(0, 0%, 30%)",
           "type": "color"
         },
         "40": {
