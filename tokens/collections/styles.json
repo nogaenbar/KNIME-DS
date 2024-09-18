@@ -575,39 +575,5 @@
         "type": "borderWidth"
       }
     }
-  },
-  "spacing": {
-    "gap": {
-      "none": {
-        "value": "{base.space.container.inside.none}",
-        "type": "spacing"
-      },
-      "xxs": {
-        "value": "{base.space.container.inside.xxs}",
-        "type": "spacing"
-      },
-      "s": {
-        "value": "{base.space.container.inside.s}",
-        "type": "spacing"
-      }
-    },
-    "padding": {
-      "xxs": {
-        "value": "{base.space.container.inside.xxs}",
-        "type": "spacing"
-      },
-      "s": {
-        "value": "{base.space.container.inside.s}",
-        "type": "spacing"
-      },
-      "m": {
-        "value": "{base.space.container.inside.m}",
-        "type": "spacing"
-      },
-      "l": {
-        "value": "{base.space.container.inside.l}",
-        "type": "spacing"
-      }
-    }
   }
 }
