@@ -236,6 +236,15 @@
         "style": "solid"
       },
       "type": "border"
+    },
+    "divider": {
+      "value": {
+        "color": "{core.color.neutral.30}",
+        "width": "1",
+        "style": "solid"
+      },
+      "type": "border",
+      "description": "divider/border color for dark mode"
     }
   }
 }

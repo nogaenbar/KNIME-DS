@@ -220,12 +220,12 @@
     },
     "divider": {
       "value": {
-        "color": "{core.color.neutral.30}",
+        "color": "{core.color.neutral.80}",
         "width": "1",
         "style": "solid"
       },
       "type": "border",
-      "description": "divider for dark mode"
+      "description": "divider/border color for light mode"
     },
     "strong": {
       "value": {
