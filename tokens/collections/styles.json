@@ -155,6 +155,10 @@
           "m": {
             "value": "{core.dimension.150}",
             "type": "spacing"
+          },
+          "auto": {
+            "value": "AUTO",
+            "type": "spacing"
           }
         },
         "padding": {
@@ -188,11 +192,23 @@
           }
         },
         "stack": {
+          "none": {
+            "value": "{core.dimension.0}",
+            "type": "spacing"
+          },
+          "xs": {
+            "value": "{core.dimension.25}",
+            "type": "spacing"
+          },
           "s": {
-            "value": "{core.dimension.100}",
+            "value": "{core.dimension.50}",
             "type": "spacing"
           },
           "m": {
+            "value": "{core.dimension.100}",
+            "type": "spacing"
+          },
+          "l": {
             "value": "{core.dimension.150}",
             "type": "spacing"
           }
