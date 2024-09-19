@@ -201,62 +201,6 @@
             "type": "spacing"
           }
         }
-      },
-      "selectable": {
-        "inset": {
-          "none": {
-            "value": "{core.dimension.0}",
-            "type": "spacing"
-          },
-          "s": {
-            "value": "{core.dimension.50}",
-            "type": "spacing"
-          },
-          "m": {
-            "value": "{core.dimension.75}",
-            "type": "spacing"
-          },
-          "l": {
-            "value": "{core.dimension.100}",
-            "type": "spacing"
-          }
-        },
-        "inside": {
-          "none": {
-            "value": "{core.dimension.0}",
-            "type": "spacing"
-          },
-          "xs": {
-            "value": "{core.dimension.12}",
-            "type": "spacing"
-          },
-          "s": {
-            "value": "{core.dimension.25}",
-            "type": "spacing"
-          },
-          "m": {
-            "value": "{core.dimension.50}",
-            "type": "spacing"
-          },
-          "l": {
-            "value": "{core.dimension.100}",
-            "type": "spacing"
-          }
-        },
-        "stack": {
-          "s": {
-            "value": "{core.dimension.50}",
-            "type": "spacing"
-          },
-          "m": {
-            "value": "{core.dimension.100}",
-            "type": "spacing"
-          },
-          "l": {
-            "value": "{core.dimension.150}",
-            "type": "spacing"
-          }
-        }
       }
     },
     "font-size": {
