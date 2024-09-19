@@ -574,6 +574,36 @@
         "value": "{core.border-width.20}",
         "type": "borderWidth"
       }
+    },
+    "icon-stroke": {
+      "large": {
+        "value": "1.33",
+        "type": "borderWidth"
+      },
+      "medium": {
+        "value": "1.13",
+        "type": "borderWidth"
+      },
+      "small": {
+        "value": "1",
+        "type": "borderWidth"
+      }
+    }
+  },
+  "dimension": {
+    "icon-button": {
+      "large": {
+        "value": "{core.dimension.225}",
+        "type": "dimension"
+      },
+      "medium": {
+        "value": "{core.dimension.175}",
+        "type": "dimension"
+      },
+      "small": {
+        "value": "{core.dimension.125}",
+        "type": "dimension"
+      }
     }
   }
 }
