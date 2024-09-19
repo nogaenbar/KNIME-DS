@@ -83,7 +83,7 @@
     },
     "space": {
       "page": {
-        "inset": {
+        "margin": {
           "none": {
             "value": "{core.dimension.0}",
             "description": "This is basically your page margin (in breakpoints-speak).",
@@ -106,7 +106,7 @@
             "type": "spacing"
           }
         },
-        "inside": {
+        "padding": {
           "none": {
             "value": "{core.dimension.0}",
             "description": "This is basically your page gutter (in breakpoints-speak).",
@@ -143,21 +143,7 @@
         }
       },
       "container": {
-        "inset": {
-          "none": {
-            "value": "{core.dimension.0}",
-            "type": "spacing"
-          },
-          "s": {
-            "value": "{core.dimension.100}",
-            "type": "spacing"
-          },
-          "m": {
-            "value": "{core.dimension.150}",
-            "type": "spacing"
-          }
-        },
-        "inside": {
+        "padding": {
           "none": {
             "value": "{core.dimension.0}",
             "type": "spacing"
@@ -175,28 +161,96 @@
             "type": "spacing"
           },
           "m": {
+            "value": "{core.dimension.100}",
+            "type": "spacing"
+          },
+          "l": {
+            "value": "{core.dimension.125}",
+            "type": "spacing"
+          },
+          "xl": {
+            "value": "{core.dimension.200}",
+            "type": "spacing"
+          },
+          "auto": {
+            "value": "AUTO",
+            "type": "spacing"
+          }
+        },
+        "stack": {
+          "none": {
+            "value": "{core.dimension.0}",
+            "type": "spacing"
+          },
+          "xs": {
+            "value": "{core.dimension.25}",
+            "type": "spacing"
+          },
+          "s": {
+            "value": "{core.dimension.50}",
+            "type": "spacing"
+          },
+          "m": {
+            "value": "{core.dimension.100}",
+            "type": "spacing"
+          },
+          "l": {
+            "value": "{core.dimension.150}",
+            "type": "spacing"
+          }
+        }
+      },
+      "selectable": {
+        "margin": {
+          "none": {
+            "value": "{core.dimension.0}",
+            "type": "spacing"
+          },
+          "s": {
+            "value": "{core.dimension.50}",
+            "type": "spacing"
+          },
+          "m": {
             "value": "{core.dimension.75}",
             "type": "spacing"
           },
           "l": {
             "value": "{core.dimension.100}",
             "type": "spacing"
-          },
-          "xl": {
-            "value": "{core.dimension.125}",
+          }
+        },
+        "padding": {
+          "none": {
+            "value": "{core.dimension.0}",
             "type": "spacing"
           },
-          "xxl": {
-            "value": "{core.dimension.200}",
+          "xs": {
+            "value": "{core.dimension.12}",
+            "type": "spacing"
+          },
+          "s": {
+            "value": "{core.dimension.25}",
+            "type": "spacing"
+          },
+          "m": {
+            "value": "{core.dimension.50}",
+            "type": "spacing"
+          },
+          "l": {
+            "value": "{core.dimension.100}",
             "type": "spacing"
           }
         },
         "stack": {
           "s": {
-            "value": "{core.dimension.100}",
+            "value": "{core.dimension.50}",
             "type": "spacing"
           },
           "m": {
+            "value": "{core.dimension.100}",
+            "type": "spacing"
+          },
+          "l": {
             "value": "{core.dimension.150}",
             "type": "spacing"
           }
