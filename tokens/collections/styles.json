@@ -496,14 +496,22 @@
           "type": "spacing"
         },
         "m": {
-          "value": "{core.dimension.100}",
+          "value": "{core.dimension.75}",
           "type": "spacing"
         },
         "l": {
-          "value": "{core.dimension.125}",
+          "value": "{core.dimension.100}",
           "type": "spacing"
         },
         "xl": {
+          "value": "{core.dimension.125}",
+          "type": "spacing"
+        },
+        "xxl": {
+          "value": "{core.dimension.150}",
+          "type": "spacing"
+        },
+        "3xl": {
           "value": "{core.dimension.200}",
           "type": "spacing"
         },
