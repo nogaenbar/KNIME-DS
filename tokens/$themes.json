@@ -7,7 +7,7 @@
       "core": "source",
       "collections/styles": "source",
       "collections/colors/light": "enabled",
-      "collections/colors/global": "enabled"
+      "collections/component/nav-primary": "enabled"
     },
     "group": "mode"
   },
@@ -19,7 +19,7 @@
       "core": "source",
       "collections/styles": "source",
       "collections/colors/dark": "enabled",
-      "collections/colors/global": "enabled"
+      "collections/component/nav-primary": "enabled"
     },
     "group": "mode"
   }

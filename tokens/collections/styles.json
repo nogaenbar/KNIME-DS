@@ -402,16 +402,16 @@
       }
     },
     "icon-stroke": {
-      "large": {
-        "value": "1.33",
+      "s": {
+        "value": "1",
         "type": "borderWidth"
       },
-      "medium": {
+      "m": {
         "value": "1.13",
         "type": "borderWidth"
       },
-      "small": {
-        "value": "1",
+      "l": {
+        "value": "1.33",
         "type": "borderWidth"
       }
     }
@@ -510,62 +510,6 @@
         "auto": {
           "value": "AUTO",
           "type": "spacing"
-        }
-      },
-      "selectable": {
-        "margin": {
-          "none": {
-            "value": "{core.dimension.0}",
-            "type": "spacing"
-          },
-          "s": {
-            "value": "{core.dimension.50}",
-            "type": "spacing"
-          },
-          "m": {
-            "value": "{core.dimension.75}",
-            "type": "spacing"
-          },
-          "l": {
-            "value": "{core.dimension.100}",
-            "type": "spacing"
-          }
-        },
-        "padding": {
-          "none": {
-            "value": "{core.dimension.0}",
-            "type": "spacing"
-          },
-          "xs": {
-            "value": "{core.dimension.12}",
-            "type": "spacing"
-          },
-          "s": {
-            "value": "{core.dimension.25}",
-            "type": "spacing"
-          },
-          "m": {
-            "value": "{core.dimension.50}",
-            "type": "spacing"
-          },
-          "l": {
-            "value": "{core.dimension.100}",
-            "type": "spacing"
-          }
-        },
-        "stack": {
-          "s": {
-            "value": "{core.dimension.50}",
-            "type": "spacing"
-          },
-          "m": {
-            "value": "{core.dimension.100}",
-            "type": "spacing"
-          },
-          "l": {
-            "value": "{core.dimension.150}",
-            "type": "spacing"
-          }
         }
       }
     }

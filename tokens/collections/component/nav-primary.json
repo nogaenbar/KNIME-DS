@@ -1,10 +1,8 @@
 {
   "color": {
-    "global": {
-      "bg-nav": {
-        "value": "{core.color.neutral.0}",
-        "type": "color"
-      }
+    "bg": {
+      "value": "{core.color.neutral.0}",
+      "type": "color"
     }
   },
   "border": {

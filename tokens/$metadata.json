@@ -2,7 +2,7 @@
   "tokenSetOrder": [
     "core",
     "collections/styles",
-    "collections/colors/global",
+    "collections/component/nav-primary",
     "collections/colors/light",
     "collections/colors/dark"
   ]
