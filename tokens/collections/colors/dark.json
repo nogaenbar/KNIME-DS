@@ -1,14 +1,25 @@
 {
-  "interactive": {
-    "button": {
+  "color": {
+    "base": {
+      "bg": {
+        "clear": {
+          "value": "{core.color.neutral.0}",
+          "type": "color"
+        },
+        "cloudy": {
+          "value": "{core.color.neutral.10}",
+          "type": "color"
+        },
+        "weak": {
+          "value": "{core.color.neutral.20}",
+          "type": "color"
+        }
+      },
       "fg": {
         "default": {
           "value": "{core.color.neutral.90}",
-          "type": "color"
-        },
-        "default-inverted": {
-          "value": "{core.color.neutral.10}",
-          "type": "color"
+          "type": "color",
+          "description": "main text color"
         },
         "subtle": {
           "value": "{core.color.neutral.50}",
@@ -18,128 +29,152 @@
           "value": "{core.color.neutral.60}",
           "type": "color"
         }
-      },
-      "bg": {
-        "default": {
-          "value": "{core.color.yellow.50}",
-          "type": "color"
-        },
-        "none": {
-          "value": "{core.color.transparent}",
-          "type": "color"
-        },
-        "primary": {
-          "enabled": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "darken",
-                  "value": ".04",
-                  "space": "lch"
-                }
-              }
-            },
-            "value": "{interactive.button.bg.default}",
+      }
+    },
+    "interactive": {
+      "button": {
+        "fg": {
+          "default": {
+            "value": "{core.color.neutral.90}",
             "type": "color"
           },
-          "hover": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "{interactive.color.modifiers.button.hover}",
-                  "space": "lch"
-                }
-              }
-            },
-            "value": "{interactive.button.bg.default}",
+          "default-inverted": {
+            "value": "{core.color.neutral.10}",
             "type": "color"
           },
-          "focused": {
-            "value": "{interactive.button.bg.default}",
+          "subtle": {
+            "value": "{core.color.neutral.50}",
             "type": "color"
           },
-          "disabled": {
-            "value": "{core.color.neutral.30}",
+          "strong": {
+            "value": "{core.color.neutral.60}",
             "type": "color"
           }
         },
-        "secondary": {
-          "enabled": {
-            "value": "{interactive.button.bg.none}",
+        "bg": {
+          "default": {
+            "value": "{core.color.yellow.50}",
             "type": "color"
           },
-          "hover": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "mix",
-                  "value": "{interactive.color.modifiers.button.hover}",
-                  "space": "lch",
-                  "color": "{core.color.neutral.10}"
+          "none": {
+            "value": "{core.color.transparent}",
+            "type": "color"
+          },
+          "primary": {
+            "enabled": {
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": ".04",
+                    "space": "lch"
+                  }
                 }
-              }
+              },
+              "value": "{color.interactive.button.bg.default}",
+              "type": "color"
             },
-            "value": "{interactive.button.bg.none}",
-            "type": "color"
-          },
-          "focused": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "{interactive.color.modifiers.button.focused}",
-                  "space": "lch"
+            "hover": {
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "{interactive.color.modifiers.button.hover}",
+                    "space": "lch"
+                  }
                 }
-              }
+              },
+              "value": "{color.interactive.button.bg.default}",
+              "type": "color"
             },
-            "value": "{interactive.button.bg.none}",
-            "type": "color"
+            "focused": {
+              "value": "{color.interactive.button.bg.default}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{core.color.neutral.30}",
+              "type": "color"
+            }
           },
-          "disabled": {
-            "value": "{interactive.button.bg.none}",
-            "type": "color"
-          }
-        },
-        "tertiary": {
-          "enabled": {
-            "value": "{interactive.button.bg.none}",
-            "type": "color"
-          },
-          "hover": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "mix",
-                  "value": "{interactive.color.modifiers.button.hover}",
-                  "space": "lch",
-                  "color": "{core.color.neutral.10}"
+          "secondary": {
+            "enabled": {
+              "value": "{color.interactive.button.bg.none}",
+              "type": "color"
+            },
+            "hover": {
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "{interactive.color.modifiers.button.hover}",
+                    "space": "lch",
+                    "color": "{core.color.neutral.10}"
+                  }
                 }
-              }
+              },
+              "value": "{color.interactive.button.bg.none}",
+              "type": "color"
             },
-            "value": "{interactive.button.bg.none}",
-            "type": "color"
-          },
-          "focused": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "{interactive.color.modifiers.button.focused}",
-                  "space": "lch"
+            "focused": {
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "{interactive.color.modifiers.button.focused}",
+                    "space": "lch"
+                  }
                 }
-              }
+              },
+              "value": "{color.interactive.button.bg.none}",
+              "type": "color"
             },
-            "value": "{interactive.button.bg.none}",
-            "type": "color"
+            "disabled": {
+              "value": "{color.interactive.button.bg.none}",
+              "type": "color"
+            }
           },
-          "disabled": {
-            "value": "{interactive.button.bg.none}",
-            "type": "color"
+          "tertiary": {
+            "enabled": {
+              "value": "{color.interactive.button.bg.none}",
+              "type": "color"
+            },
+            "hover": {
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "{interactive.color.modifiers.button.hover}",
+                    "space": "lch",
+                    "color": "{core.color.neutral.10}"
+                  }
+                }
+              },
+              "value": "{color.interactive.button.bg.none}",
+              "type": "color"
+            },
+            "focused": {
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "{interactive.color.modifiers.button.focused}",
+                    "space": "lch"
+                  }
+                }
+              },
+              "value": "{color.interactive.button.bg.none}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{color.interactive.button.bg.none}",
+              "type": "color"
+            }
           }
         }
       }
-    },
+    }
+  },
+  "interactive": {
     "color": {
       "modifiers": {
         "enabled-alpha": {
@@ -203,6 +238,15 @@
         "style": "solid"
       },
       "type": "border"
+    },
+    "divider": {
+      "value": {
+        "color": "{core.color.neutral.30}",
+        "width": "1",
+        "style": "solid"
+      },
+      "type": "border",
+      "description": "divider/border color for dark mode"
     }
   }
 }

@@ -83,7 +83,7 @@
     },
     "space": {
       "page": {
-        "inset": {
+        "margin": {
           "none": {
             "value": "{core.dimension.0}",
             "description": "This is basically your page margin (in breakpoints-speak).",
@@ -106,7 +106,7 @@
             "type": "spacing"
           }
         },
-        "inside": {
+        "padding": {
           "none": {
             "value": "{core.dimension.0}",
             "description": "This is basically your page gutter (in breakpoints-speak).",
@@ -143,21 +143,7 @@
         }
       },
       "container": {
-        "inset": {
-          "none": {
-            "value": "{core.dimension.0}",
-            "type": "spacing"
-          },
-          "s": {
-            "value": "{core.dimension.100}",
-            "type": "spacing"
-          },
-          "m": {
-            "value": "{core.dimension.150}",
-            "type": "spacing"
-          }
-        },
-        "inside": {
+        "padding": {
           "none": {
             "value": "{core.dimension.0}",
             "type": "spacing"
@@ -185,21 +171,37 @@
           "xl": {
             "value": "{core.dimension.200}",
             "type": "spacing"
+          },
+          "auto": {
+            "value": "AUTO",
+            "type": "spacing"
           }
         },
         "stack": {
+          "none": {
+            "value": "{core.dimension.0}",
+            "type": "spacing"
+          },
+          "xs": {
+            "value": "{core.dimension.25}",
+            "type": "spacing"
+          },
           "s": {
-            "value": "{core.dimension.100}",
+            "value": "{core.dimension.50}",
             "type": "spacing"
           },
           "m": {
+            "value": "{core.dimension.100}",
+            "type": "spacing"
+          },
+          "l": {
             "value": "{core.dimension.150}",
             "type": "spacing"
           }
         }
       },
       "selectable": {
-        "inset": {
+        "margin": {
           "none": {
             "value": "{core.dimension.0}",
             "type": "spacing"
@@ -217,7 +219,7 @@
             "type": "spacing"
           }
         },
-        "inside": {
+        "padding": {
           "none": {
             "value": "{core.dimension.0}",
             "type": "spacing"
@@ -241,10 +243,14 @@
         },
         "stack": {
           "s": {
-            "value": "{core.dimension.100}",
+            "value": "{core.dimension.50}",
             "type": "spacing"
           },
           "m": {
+            "value": "{core.dimension.100}",
+            "type": "spacing"
+          },
+          "l": {
             "value": "{core.dimension.150}",
             "type": "spacing"
           }
@@ -570,39 +576,35 @@
         "value": "{core.border-width.20}",
         "type": "borderWidth"
       }
+    },
+    "icon-stroke": {
+      "large": {
+        "value": "1.33",
+        "type": "borderWidth"
+      },
+      "medium": {
+        "value": "1.13",
+        "type": "borderWidth"
+      },
+      "small": {
+        "value": "1",
+        "type": "borderWidth"
+      }
     }
   },
-  "spacing": {
-    "gap": {
-      "none": {
-        "value": "{base.space.container.inside.none}",
-        "type": "spacing"
+  "dimension": {
+    "icon-button": {
+      "large": {
+        "value": "{core.dimension.225}",
+        "type": "dimension"
       },
-      "xxs": {
-        "value": "{base.space.container.inside.xxs}",
-        "type": "spacing"
+      "medium": {
+        "value": "{core.dimension.175}",
+        "type": "dimension"
       },
-      "s": {
-        "value": "{base.space.container.inside.s}",
-        "type": "spacing"
-      }
-    },
-    "padding": {
-      "xxs": {
-        "value": "{base.space.container.inside.xxs}",
-        "type": "spacing"
-      },
-      "s": {
-        "value": "{base.space.container.inside.s}",
-        "type": "spacing"
-      },
-      "m": {
-        "value": "{base.space.container.inside.m}",
-        "type": "spacing"
-      },
-      "l": {
-        "value": "{base.space.container.inside.l}",
-        "type": "spacing"
+      "small": {
+        "value": "{core.dimension.125}",
+        "type": "dimension"
       }
     }
   }
