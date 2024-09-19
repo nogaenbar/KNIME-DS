@@ -21,12 +21,12 @@
           "type": "color",
           "description": "main text color"
         },
-        "strong": {
-          "value": "{core.color.neutral.60}",
-          "type": "color"
-        },
         "subtle": {
           "value": "{core.color.neutral.50}",
+          "type": "color"
+        },
+        "strong": {
+          "value": "{core.color.neutral.60}",
           "type": "color"
         }
       }

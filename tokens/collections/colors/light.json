@@ -6,12 +6,12 @@
           "value": "{core.color.neutral.100}",
           "type": "color"
         },
-        "weak": {
-          "value": "{core.color.neutral.90}",
-          "type": "color"
-        },
         "cloudy": {
           "value": "{core.color.neutral.80}",
+          "type": "color"
+        },
+        "weak": {
+          "value": "{core.color.neutral.90}",
           "type": "color"
         }
       },
