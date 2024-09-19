@@ -83,7 +83,7 @@
     },
     "space": {
       "page": {
-        "margin": {
+        "inset": {
           "none": {
             "value": "{core.dimension.0}",
             "description": "This is basically your page margin (in breakpoints-speak).",
@@ -106,7 +106,7 @@
             "type": "spacing"
           }
         },
-        "padding": {
+        "inside": {
           "none": {
             "value": "{core.dimension.0}",
             "description": "This is basically your page gutter (in breakpoints-speak).",
@@ -143,7 +143,7 @@
         }
       },
       "container": {
-        "margin": {
+        "inset": {
           "none": {
             "value": "{core.dimension.0}",
             "type": "spacing"
@@ -155,13 +155,9 @@
           "m": {
             "value": "{core.dimension.150}",
             "type": "spacing"
-          },
-          "auto": {
-            "value": "AUTO",
-            "type": "spacing"
           }
         },
-        "padding": {
+        "inside": {
           "none": {
             "value": "{core.dimension.0}",
             "type": "spacing"
@@ -179,43 +175,35 @@
             "type": "spacing"
           },
           "m": {
-            "value": "{core.dimension.100}",
+            "value": "{core.dimension.75}",
             "type": "spacing"
           },
           "l": {
-            "value": "{core.dimension.125}",
+            "value": "{core.dimension.100}",
             "type": "spacing"
           },
           "xl": {
+            "value": "{core.dimension.125}",
+            "type": "spacing"
+          },
+          "xxl": {
             "value": "{core.dimension.200}",
             "type": "spacing"
           }
         },
         "stack": {
-          "none": {
-            "value": "{core.dimension.0}",
-            "type": "spacing"
-          },
-          "xs": {
-            "value": "{core.dimension.25}",
-            "type": "spacing"
-          },
           "s": {
-            "value": "{core.dimension.50}",
-            "type": "spacing"
-          },
-          "m": {
             "value": "{core.dimension.100}",
             "type": "spacing"
           },
-          "l": {
+          "m": {
             "value": "{core.dimension.150}",
             "type": "spacing"
           }
         }
       },
       "selectable": {
-        "margin": {
+        "inset": {
           "none": {
             "value": "{core.dimension.0}",
             "type": "spacing"
@@ -233,7 +221,7 @@
             "type": "spacing"
           }
         },
-        "padding": {
+        "inside": {
           "none": {
             "value": "{core.dimension.0}",
             "type": "spacing"

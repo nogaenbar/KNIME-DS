@@ -2,7 +2,6 @@
   "tokenSetOrder": [
     "core",
     "collections/styles",
-    "collections/colors/global",
     "collections/colors/light",
     "collections/colors/dark"
   ]
